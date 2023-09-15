@@ -1,6 +1,7 @@
 import "./App.css";
 import Article from "./components/Article";
 import Header from "./components/Header";
+import MainCard from "./components/MainCard";
 import NavigateMenu from "./components/NavigationMenu";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Article />
       <NavigateMenu />
+      <MainCard />
     </>
   );
 }
