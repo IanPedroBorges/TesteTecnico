@@ -6,10 +6,10 @@ export default function NavigateMenu() {
   return (
     <nav className={ style.MainNavigate }>
         <ul>
-            <li><a href="">Mais recentes</a></li>
-            <li><a href="">Release</a></li>
-            <li><a href="">Notícia</a></li>
-            <li><a href="">Favoritas</a></li>
+            <li><button>Mais recentes</button></li>
+            <li><button>Release</button></li>
+            <li><button>Notícia</button></li>
+            <li><button>Favoritas</button></li>
         </ul>
         <img src={ iconMenu } alt="" />
     </nav>

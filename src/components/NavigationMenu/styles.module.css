@@ -16,29 +16,48 @@
   justify-content: space-between;
 }
 
-.MainNavigate > ul > li > a {
-  text-decoration: none;
-  color: #2a2a2a;
-  font-family: Poppins;
-  font-size: max(0.6rem, 1.2vw);
-  font-weight: 600;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: left;
-}
+.MainNavigate > ul > li > button {
+    cursor: pointer;
+    text-decoration: none;
+    color: #2a2a2a;
+    font-family: Poppins;
+    font-size: max(0.6rem, 1.2vw);
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: transparent;
+    border: none;
+    position: relative;
+  }
+  
+  .MainNavigate > ul > li > button::after {
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #c31815;
+    transition: 0.3s ease-in-out;
+  }
+
+  .MainNavigate > ul > li > button:hover::after {
+    width: 100%;
+  }
 
 .MainNavigate > img {
-    width: 5%;
+  width: 5%;
 }
 
 @media (max-width: 600px) {
-    .MainNavigate > ul {
-        width: 60%;
-      }
+  .MainNavigate > ul {
+    width: 60%;
+  }
 }
 
 @media (max-width: 600px) {
-    .MainNavigate > ul {
-        width: 75%;
-      }
+  .MainNavigate > ul {
+    width: 75%;
+  }
 }
