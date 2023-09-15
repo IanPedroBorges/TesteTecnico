@@ -1,4 +1,4 @@
-import { ApiItemTrated, ApiResponse } from "../../types/types.apiRertun";
+import { ApiItemTrated, ApiResponse } from "../types/types.apiRertun";
 
 export const apiResponse = async () => {
     try {

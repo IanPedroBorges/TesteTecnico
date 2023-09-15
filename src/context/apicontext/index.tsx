@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ApiContext } from "./apiContext";
 import { ApiItemTrated } from "../../types/types.apiRertun";
-import { apiResponse } from "../../components/services/apiResponsee";
+import { apiResponse } from "../../services/apiResponsee";
 
 export default function ApiProvider({ children}: { children: React.ReactNode}) {
     const [data, setData] = useState<ApiItemTrated[]>([]);

@@ -1,0 +1,44 @@
+.MainNavigate {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background: #ffffffd9;
+  padding: 1.5vw;
+  border-radius: 10px;
+}
+
+.MainNavigate > ul {
+  display: flex;
+  width: 50%;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.MainNavigate > ul > li > a {
+  text-decoration: none;
+  color: #2a2a2a;
+  font-family: Poppins;
+  font-size: max(0.6rem, 1.2vw);
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.MainNavigate > img {
+    width: 5%;
+}
+
+@media (max-width: 600px) {
+    .MainNavigate > ul {
+        width: 60%;
+      }
+}
+
+@media (max-width: 600px) {
+    .MainNavigate > ul {
+        width: 75%;
+      }
+}
