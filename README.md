@@ -1,8 +1,6 @@
 # Teste tecnico 
 
 
-[![Logo do Projeto](https://imagem.app/image/ob22ZE)](https://imgur.com/feQYfEv)
-
 
 Este é um teste técnico que demonstra minhas habilidades de desenvolvimento. A aplicação é uma plataforma de notícias com recursos de navegação e filtragem.
 
@@ -10,6 +8,7 @@ Este é um teste técnico que demonstra minhas habilidades de desenvolvimento. A
 - [Visão Geral](#visão-geral)
 - [Deploy](#Deploy)
 - [Instalação](#instalação)
+- [Tecnologia](#Tecnologias)
 - [Contato](#contato)
 
 # Visão Geral
@@ -32,15 +31,11 @@ cd seu-projeto
 npm install
 
 
-javascript
-Copy code
-// Exemplo de código
-const exemplo = require('seu-modulo');
+# Tecnologiasites
+site criando em React, controle de informações com o Context e localStorage e testes criados com Vitest.
 
-Contato
-Forneça informações de contato para que os usuários possam entrar em contato caso tenham dúvidas, feedback ou relatem problemas.
+#Contato
+Para mais Informações , entre em contato
 
 Email: ianhudback@gmail.com
 linkedin: https://www.linkedin.com/in/ian-borges/
-Nota: Este é apenas um exemplo de README. Personalize-o conforme as necessidades e características específicas do seu projeto. Certifique-se de manter o README atualizado à medida que o projeto evolui.
-
