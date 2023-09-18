@@ -21,7 +21,7 @@ A aplicação foi desenvolvida para fornecer uma experiência de navegação sim
 
 # Deploy
 [Veja o Site aqui >>>>](https://teste-tecnico-ibge-simulator.vercel.app/)
-
+ 
 # Instalação
 
 git clone https://github.com/seu-usuario/seu-projeto.git
