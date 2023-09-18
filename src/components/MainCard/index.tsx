@@ -14,13 +14,13 @@ export default function MainCard() {
   const { recentData, storage, renderization } = useContext(ApiContext);
 
   return (
-    <main className={renderization ? styles.MainCard : styles.MainCardCol}>
+    <main className={renderization ?  styles.MainCardCol : styles.MainCard}>
       {recentData.map(
         (item, index) =>
           index < numberPages && (
             <div key={item.titulo} className={styles.cardContainer}>
               <img
-                className={renderization ? styles.img : styles.imgCol}
+                className={renderization ? styles.imgCol : styles.img }
                 src={`https://agenciadenoticias.ibge.gov.br/${item.imagens.image_intro}`}
                 alt={`Imagem mostrando o conteuudo do seguinte titulo: ${item.titulo}`}
               />

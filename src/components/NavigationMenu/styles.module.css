@@ -50,14 +50,15 @@
   width: 5%;
 }
 
-@media (max-width: 600px) {
-  .MainNavigate > ul {
-    width: 60%;
-  }
-}
 
 @media (max-width: 600px) {
   .MainNavigate > ul {
     width: 75%;
+  }
+}
+
+@media (max-width: 900px) {
+  .MainNavigate > img {
+    display: none;
   }
 }
