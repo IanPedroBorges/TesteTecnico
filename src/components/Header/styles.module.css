@@ -2,12 +2,12 @@
   width: 100vw;
   display: flex;
   align-items: center;
-  height: 15vh;
+  height: 10vw;
   background-color: #0e0e0e;
 }
 
 .Header > img {
-  height: 100%;
+  height: 99%;
 }
 
 .Header > div {
@@ -23,15 +23,3 @@
   letter-spacing: 1.600000023841858px;
   color: white;
 }
-
-@media (max-width: 650px) {
-  .Header {
-    height: 10vh;
-  }
-}
-
-@media (max-width: 450px) {
-    .Header {
-      height: 5vh;
-    }
-  }
