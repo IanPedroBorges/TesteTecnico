@@ -1,7 +1,8 @@
 # Teste tecnico 
 
 
-![Logo do Projeto](https://imagem.app/image/ob22ZE](https://imagem.app/image/ob22ZE)](https://imgur.com/feQYfEv)
+[![Logo do Projeto](https://imagem.app/image/ob22ZE)](https://imgur.com/feQYfEv)
+
 
 Este é um teste técnico que demonstra minhas habilidades de desenvolvimento. A aplicação é uma plataforma de notícias com recursos de navegação e filtragem.
 
