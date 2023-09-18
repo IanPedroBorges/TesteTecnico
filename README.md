@@ -1,6 +1,7 @@
 # Teste tecnico 
 
-![Logo do Projeto]([url_da_imagem_da_logo.png](https://imagem.app/image/ob22ZE))
+
+![Logo do Projeto](https://imagem.app/image/ob22ZE](https://imagem.app/image/ob22ZE)](https://imgur.com/feQYfEv)
 
 Este é um teste técnico que demonstra minhas habilidades de desenvolvimento. A aplicação é uma plataforma de notícias com recursos de navegação e filtragem.
 
@@ -20,10 +21,10 @@ A aplicação foi desenvolvida para fornecer uma experiência de navegação sim
 - Totalmente responsivo para uma experiência de usuário consistente em dispositivos móveis e desktop.
 
 
-Deploy
+# Deploy
 [Link para a demonstração ao vivo](https://teste-tecnico-ibge-simulator.vercel.app/)
 
-Instalação
+# Instalação
 
 git clone https://github.com/seu-usuario/seu-projeto.git
 cd seu-projeto
@@ -42,9 +43,3 @@ Email: ianhudback@gmail.com
 linkedin: https://www.linkedin.com/in/ian-borges/
 Nota: Este é apenas um exemplo de README. Personalize-o conforme as necessidades e características específicas do seu projeto. Certifique-se de manter o README atualizado à medida que o projeto evolui.
 
-
-
-
-[Link para a demonstração ao vivo](URL_DO_SEU_DEPLOY)
-
-...
