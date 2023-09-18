@@ -2,11 +2,14 @@ import { useEffect, useState } from "react";
 import { ApiContext } from "./apiContext";
 import { ApiItemTrated } from "../../types/types.apiRertun";
 import { apiResponse } from "../../services/apiResponsee";
+import { useLocalStorage } from "../../hooks/useLocalStorage";
 
 export default function ApiProvider({ children}: { children: React.ReactNode}) {
     const [data, setData] = useState<ApiItemTrated[]>([]);
     const [recentData, setRecentData] = useState<ApiItemTrated[]>([]);
     const [primaryNotice, setPrimaryNotice] = useState<ApiItemTrated[]>([]);
+    const [storage , setStorage] = useLocalStorage('favorites', []);
+    const [renderization, setRenderization] = useState<boolean>(false);
 
     useEffect(() => {
         const api = async () => {
@@ -26,6 +29,11 @@ export default function ApiProvider({ children}: { children: React.ReactNode}) {
         setData,
         recentData,
         primaryNotice,
+        setRecentData,
+        storage,
+        setStorage,
+        renderization,
+        setRenderization
     }
   return (
     <ApiContext.Provider value={shared}>
