@@ -16,10 +16,8 @@ export const useControlCards = () => {
             case 2:
                 setRecentData(data.filter((item) => item.tipo === 'Notícia'))
                 break;
-            case 3:
-                setRecentData(storage)
-                break;
             default:
+                setRecentData(storage)
                 break;
         }
     }, [controlCards])

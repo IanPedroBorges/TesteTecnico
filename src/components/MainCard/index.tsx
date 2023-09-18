@@ -28,16 +28,15 @@ export default function MainCard() {
                 <h2>{item.titulo}</h2>
                 <p>{item.introducao}</p>
                 <div>
-                  <p>
-                    {tratedDataTime(item.data_publicacao) < 1
-                      ? "Hoje"
-                      : `${tratedDataTime(item.data_publicacao)} dias atras `}
-                  </p>
-                  <a target="_blank" href={item.link}>Leia a noticia aqui</a>
+                  <p>{`${tratedDataTime(item.data_publicacao)} dias atras `}</p>
+                  <a target="_blank" href={item.link}>
+                    Leia a noticia aqui
+                  </a>
                 </div>
               </article>
               <img
                 onClick={() => storageControlVerification(item)}
+                data-testid="images"
                 src={storage.includes(item) ? iconFavorite : iconNoFavorite}
                 alt=""
                 style={{ cursor: "pointer" }}

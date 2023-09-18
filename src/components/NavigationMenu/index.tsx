@@ -27,6 +27,7 @@ export default function NavigateMenu() {
       <img
         onClick={() => setRenderization(!renderization)}
         style={{ cursor: "pointer" }}
+        data-testid="menu"
         src={iconMenu}
         alt=""
       />

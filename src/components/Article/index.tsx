@@ -23,12 +23,12 @@ function Article() {
       <aside>
         <div>
           <h3>Notícia mais recente</h3>
-          <img onClick={ () => storageControlVerification(primaryNotice[0])} src={ storage.includes(primaryNotice[0]) ? imgFavorite : imgNoFavorite } alt="" />
+          <img data-testid='favorite' onClick={ () => storageControlVerification(primaryNotice[0])} src={ storage.includes(primaryNotice[0]) ? imgFavorite : imgNoFavorite } alt="" />
         </div>
         <h2>{primaryNotice[0].titulo}</h2>
         <p>{primaryNotice[0].introducao}</p>
         <div>
-          <p>{diferencaEmDias < 1 ? 'Hoje' : `${diferencaEmDias} dias atras`}</p>
+          <p>{`${diferencaEmDias} dias atras`}</p>
           <a target="_blank" href={primaryNotice[0].link}>Leia a notícia aqui</a>
         </div>
       </aside>
