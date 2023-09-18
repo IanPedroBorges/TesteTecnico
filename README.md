@@ -24,9 +24,9 @@ A aplicação foi desenvolvida para fornecer uma experiência de navegação sim
  
 # Instalação
 
-git clone https://github.com/seu-usuario/seu-projeto.git
-cd seu-projeto
-npm install
+- git clone https://github.com/seu-usuario/seu-projeto.git
+- cd seu-projeto
+- npm install
 
 
 # Tecnologiasites
