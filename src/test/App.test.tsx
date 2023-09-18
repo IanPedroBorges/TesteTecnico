@@ -126,5 +126,6 @@ describe("testando a aplicação", () => {
       expect(
         screen.getByRole("heading", { name: /trybe news/i })
       ).toBeInTheDocument();
+      localStorage.clear();
   })
 });
