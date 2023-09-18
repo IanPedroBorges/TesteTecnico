@@ -29,7 +29,7 @@ function Article() {
         <p>{primaryNotice[0].introducao}</p>
         <div>
           <p>{diferencaEmDias < 1 ? 'Hoje' : `${diferencaEmDias} dias atras`}</p>
-          <a href={primaryNotice[0].link}>Leia a notícia aqui</a>
+          <a target="_blank" href={primaryNotice[0].link}>Leia a notícia aqui</a>
         </div>
       </aside>
     </article>

@@ -33,7 +33,7 @@ export default function MainCard() {
                       ? "Hoje"
                       : `${tratedDataTime(item.data_publicacao)} dias atras `}
                   </p>
-                  <a href={item.link}>Leia a noticia aqui</a>
+                  <a target="_blank" href={item.link}>Leia a noticia aqui</a>
                 </div>
               </article>
               <img
