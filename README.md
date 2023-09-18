@@ -20,7 +20,7 @@ A aplicação foi desenvolvida para fornecer uma experiência de navegação sim
 
 
 # Deploy
-[Veja o Site aqui >>>>](https://teste-tecnico-ibge-simulator.vercel.app/)
+ Veja o Site aqui >>>> [Aplicação](https://teste-tecnico-ibge-simulator.vercel.app/)
  
 # Instalação
 
