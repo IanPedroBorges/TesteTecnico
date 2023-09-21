@@ -29,8 +29,12 @@ A aplicação foi desenvolvida para fornecer uma experiência de navegação sim
 - npm install
 
 
-# Tecnologiasites
-site criando em React, controle de informações com o Context e localStorage e testes criados com Vitest.
+# Tecnologias
+- site criando em React
+-  controle de informações com o Context
+-  localStorage
+-  testes criados com Vitest.
+-  stilização feita com css Modules
 
 #Contato
 Para mais Informações , entre em contato
