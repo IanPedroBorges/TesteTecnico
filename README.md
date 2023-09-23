@@ -24,9 +24,9 @@ A aplicação foi desenvolvida para fornecer uma experiência de navegação sim
  
 # Instalação
 
-- git clone https://github.com/seu-usuario/seu-projeto.git
-- cd seu-projeto
-- npm install
+1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
+2. Acesse a pasta do projeto: `cd seu-projeto`
+3. Instale as dependências: `npm install`
 
 
 # Tecnologias
@@ -34,7 +34,7 @@ A aplicação foi desenvolvida para fornecer uma experiência de navegação sim
 -  controle de informações com o Context
 -  localStorage
 -  testes criados com Vitest.
--  stilização feita com css Modules
+-  estilização feita com css Modules
 
 #Contato
 Para mais Informações , entre em contato
